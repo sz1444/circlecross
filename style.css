@@ -1,0 +1,101 @@
+body {
+   margin: 0 auto;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   margin: 20px auto;
+   width: 320px;
+}
+
+.field {
+   margin: 0 auto;
+   width: 100px;
+   height: 100px;
+   float: left;
+}
+
+#f1 {
+   border-bottom: 6px solid #bbb;
+}
+
+#f2 {
+   border-bottom: 6px solid #bbb;
+   border-left: 6px solid #bbb;
+   border-right: 6px solid #bbb;
+}
+
+#f3 {
+   border-bottom: 6px solid #bbb;
+}
+
+#f4 {
+   border-bottom: 6px solid #bbb;
+}
+
+#f5 {
+   border-bottom: 6px solid #bbb;
+   border-left: 6px solid #bbb;
+   border-right: 6px solid #bbb;
+}
+
+#f6 {
+   border-bottom: 6px solid #bbb;
+}
+
+#f8 {
+   border-left: 6px solid #bbb;
+   border-right: 6px solid #bbb;
+}
+
+#f9 {}
+
+.circle {
+   background-image: url(img/kolo.png);
+   background-size: cover;
+}
+
+.cross {
+   background-image: url(img/krzyzyk.png);
+   background-size: cover;
+}
+
+p {
+   font-size: 30px;
+   text-align: center;
+   height: 20px;
+   padding-bottom: 40px;
+   color: #666;
+   font-weight: bold;
+   text-transform: uppercase;
+   margin: 10px auto;
+}
+
+.clear {
+   clear: both;
+}
+
+button {
+   margin: 0 auto;
+   text-align: center;
+   width: 50%;
+   display: inline;
+   background-color: #bbb;
+   color: #666;
+   font-size: 30px;
+   border: 0;
+   border: 4px solid #aaa;
+   border-top: 4px solid #ccc;
+   border-left: 4px solid #ccc;
+   margin-top: 50px;
+   display: block;
+}
+
+button:hover {
+   transition-duration: 0.7s;
+   cursor: pointer;
+   background-color: #aaa;
+   border: 4px solid #ccc;
+   border-top: 4px solid #aaa;
+   border-left: 4px solid #aaa;
+}
